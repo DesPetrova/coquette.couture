@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer услуги в шевната промишленост</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Freelancer услуги в шевната промишленост</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Начало</a></li>
+                    <li><a href="#about">За нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contact">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Добре дошли!</h2>
+            <p>Предлагаме професионални услуги в шевната промишленост: проектиране на облекло, шиене по поръчка, корекции и други. Свържете се с нас за повече информация!</p>
+        </section>
+
+        <section id="about">
+            <h2>За нас</h2>
+            <p>Ние сме екип от квалифицирани шивачи и дизайнери с богат опит в създаването на облекло по поръчка. Работим с клиенти, които ценят качеството и персоналния подход.</p>
+        </section>
+
+        <section id="services">
+            <h2>Услуги</h2>
+            <ul>
+                <li>Проектиране на индивидуални кройки</li>
+                <li>Шиене на облекло по поръчка</li>
+                <li>Ремонт и корекции на облекло</li>
+                <li>Изработка на текстилни аксесоари</li>
+                <li>Консултации за моден дизайн</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Контакти</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Име:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Имейл:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Съобщение:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Изпрати</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Freelancer услуги в шевната промишленост. Всички права запазени.</p>
+    </footer>
+</body>
+</html>
